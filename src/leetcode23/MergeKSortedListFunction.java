@@ -3,6 +3,7 @@ package leetcode23;
 import java.util.PriorityQueue;
 
 public class MergeKSortedListFunction {
+	// At least n(logn) since we sorted all the number in the sorted lists
 	 public ListNode mergeKLists(ListNode[] lists) {
 	        if(lists.length == 0 || lists == null ){
 	            return null;
